@@ -1,0 +1,87 @@
+.blog-page4{
+    background: $color-white;
+    margin-top: 55px;
+    padding-bottom: 50px;
+    .blog-page4-title{
+        h2{
+            color:$color-grey;
+            font-size: 3rem;
+            margin-bottom: 3rem;
+        }
+    }
+    .blog-post{
+        @include responsive(tab-port) {
+           
+           }
+        .post4{
+            background: $color-white;
+            box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+            border-radius: 5px;
+            overflow: hidden;
+            @include responsive(tab-port) {
+             margin-top: 3rem
+               }
+               @include responsive(phone) {
+                margin-top: 3rem
+               }
+            .post4-photo{
+                img{
+                }
+            } 
+            .post4-detail{
+                padding: 15px;
+                color: $color-grey!important;
+                h6{
+                    padding: 5px; 
+                    color: $color-orange;
+                    font-weight: bold;
+                }
+                h4{
+                    a{
+                        font-size: 20px;
+                        color: $color-grey !important;
+                    }
+
+                }
+                p{
+                    padding: 5px;
+                    line-height: 1.7;
+                    color:$color-grey !important;
+                }
+            }
+            .post4-author{
+                padding: 2px;
+                position: relative;
+                top: 7px;
+                padding-left: 15px;
+                p{
+                    font-size: 13px;
+                    padding-top: 9px;
+                 }
+                img{
+                    width: 35px;
+                    margin-right: 5px;
+                    border-radius: 50%;
+                    float: left;
+                    box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+                }
+            } 
+            .post4-view{
+                padding: 8px;
+                position: relative;
+                top: 10px;
+                i{
+                    float: left;
+                    margin-right: 5px;
+                    top: 3px;
+                    position: relative;
+                    color: $color-grey!important;
+                }
+                p{
+                    font-size: 13px;
+                    color: $color-grey!important;
+                }
+            }
+        }
+    }
+}

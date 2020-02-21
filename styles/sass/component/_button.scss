@@ -1,0 +1,111 @@
+.btn{
+    &:link, &:visited{
+      text-align: center;
+      text-transform: capitalize;
+      border: 1px solid $color-white;
+      color: $color-white;
+      font-size: 1.5rem;
+      border: .5px solid $color-white;
+      font-weight: 400;
+      line-height: 2;
+    
+    }
+    &:focus{
+        box-shadow: none;
+        outline: 0;
+    }
+    &:hover{
+      background: $color-purple;
+      cursor: pointer;
+      transform: translateY(-1px);
+    
+    }
+    &:active{
+      transform: translateY(-1px);
+    }
+  }
+
+
+
+
+  .btn-blue{
+    background: $color-blue;
+    text-align: center;
+    text-transform: capitalize;
+    color: $color-white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    border: .5px solid $color-blue;
+    font-weight: 400;
+    line-height: 2;
+    transition: all .2s;
+    & :focus{
+      outline: 0;
+      box-shadow: none;
+    }
+  
+  }
+  .btn-card{
+    background: #336;
+    color: $color-white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1.6rem;
+
+    @include responsive(phone) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+  
+  }
+  
+  .btn-purple{
+    background: $color-purple;
+  }
+
+  .btn-regular {
+    background: transparent;
+    text-align: center;
+    border: 1px solid #fff;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.7rem;
+    border: .5px solid #fff;
+    font-weight: 400;
+    line-height: 2;
+    transition: all .2s;
+    @include responsive(phone) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+}
+
+.msg-btn{
+  padding: 0px;
+  height: 42px;
+  width: 42px;
+  border-radius: 25px;
+  background: #e3e3e8;
+  border: none;
+  text-align: center;
+  line-height: 5;
+  @include responsive(tab-land) {
+      height: 32px;
+      width: 32px;
+     }
+  i{
+      color:$color-black-light;
+      text-align: center;
+      font-size: 19px;
+      position: relative;
+      left: 0px;
+      top: -5px;
+      vertical-align: middle;
+      @include responsive(tab-land) {
+          font-size: 14px;
+          top: -8px;
+         }
+  }
+}

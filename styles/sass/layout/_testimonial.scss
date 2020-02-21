@@ -1,0 +1,31 @@
+// testimonial
+.clients{
+    background: transparent;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background:hsl(240, 10%, 90%);
+}
+
+.testimonial{
+    p{
+        max-width: 66rem;
+        margin: auto;
+    }
+} 
+.carousel-indicators{
+    li{
+      background-color: $color-grey;
+    }
+}
+.carousel-indicators .active{
+    background-color: $color-purple;
+}
+.client-photo{
+   
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      
+    }
+}

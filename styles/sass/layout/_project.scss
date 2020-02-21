@@ -1,0 +1,117 @@
+/* project 1 */
+.projectpage1{
+    text-align: center; 
+    padding-top: 65px; 
+    background:hsl(240, 10%, 90%);
+    padding-bottom: 100px;
+}
+.project1-title h2{
+    text-transform: capitalize;
+    color: $color-black;
+    font-size: 3rem;
+    
+}
+.project1-menu {
+    ul{
+        padding: 25px;
+        li{
+            display: inline;
+            padding: 1.5rem;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+
+.history{
+    background: url(../../images/work_1.png);
+    background-size: cover;
+    color: $color-grey;
+    padding: 45px;
+    z-index: 1;
+    position: relative;
+    outline: 15px solid $color-white;
+}
+
+
+.Satire{
+    background: url(../../images/work_2.png);
+    background-size: cover;
+    color: $color-grey;
+    padding: 45px;
+    position: relative;
+    z-index: 5;
+    outline: 15px solid $color-white;
+}
+.fiction{
+    background: url(../../images/work_3.png);
+    background-size: cover;
+    color: $color-grey;
+    padding: 45px;
+    position: relative;
+    z-index: 5; 
+    outline: 15px solid $color-white;
+}
+.Basic-Civitas{
+    background: url(../../images/work_1.png);
+    background-size: cover;
+    color: $color-black;
+    padding: 45px;
+    position: relative;
+    z-index: 5; 
+    outline: 15px solid $color-white;
+}
+.item{
+    width: 50%;
+    overflow: hidden;
+    @include responsive(tab-land) {
+        width: 100%;
+        margin-bottom: 3rem;
+       }
+    @include responsive(tab-port) {
+        width: 100%;
+        margin-bottom: 3rem;
+       }
+       @include responsive(phone) {
+        width: 100%;
+        margin-bottom: 3rem;
+       }
+    .item-detail{
+        position: relative;
+        z-index: 5;
+        padding: 15px;
+        h3{
+            margin-top: 25px;
+            line-height: 45px;
+            color: $color-grey;
+        }
+        h6{
+            color: $color-black;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+        p{
+            max-width: 37rem;
+            position: relative;
+            margin: auto;
+            color: $color-black;
+            padding-bottom: 15px;
+            font-weight: 500 !important;
+        }
+    }
+    &:hover{
+        box-shadow: 0 10px 25px 0 rgba(0,0,0,5);
+        outline: none;
+        cursor: pointer;
+        z-index: 1000;
+    }
+}
+
+
+
+
+.icon{
+    i{
+        margin-right: 10px;
+    }
+}

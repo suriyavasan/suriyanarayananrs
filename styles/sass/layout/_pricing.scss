@@ -1,0 +1,79 @@
+
+
+.pricing{
+    padding-top: 6rem;
+    padding-bottom: 12rem;
+    background:$color-blue;
+    color:$color-black;
+    // position: relative;
+    // z-index: 1;
+    .pricing-content{
+        // position: relative;
+        // z-index: 4;
+        .pricing-title{
+            margin-bottom: 4rem;
+            h2{
+                font-size: 3rem;
+            }
+            p{
+                margin-bottom: 5rem;
+                margin: auto;
+            }
+        }
+        .card{
+            height: 47rem;
+            @include responsive(tab-port) {
+                margin-top: 2rem
+                  }
+                  @include responsive(phone) {
+                   margin-top: 2rem
+                  }
+            .card__side{
+                border-radius: .5rem;
+                overflow: hidden;
+                padding-bottom: 3rem;
+                
+                h6{
+                    margin-top: 1.5rem;
+                    color:$color-black !important;
+                    font-size: 2rem;
+                    }
+                    h4{
+                        padding: 1.5rem;
+                        color: $color-black !important;
+                        margin-top: 2rem;
+                        font-size: 2.5rem;
+                    }
+                    h5{
+                        padding: 1.8rem;
+                        color:$color-black!important;
+                        font-size: 1.6rem;
+                        text-transform: capitalize;
+                        border-bottom: 1px solid #1111113b;
+
+                    }
+            
+                    p{
+                        padding: 3rem;
+                        font-size: 1.5rem;
+                        color:$color-black !important;
+                    }
+                    i{
+                        font-size: 3.5rem;
+                        height: 8rem;
+                        width: 8rem;
+                        background:$color-blue;
+                        border-radius: 50%;
+                        line-height: 2;
+                        padding: .5rem;
+                        color: $color-white !important;
+                        text-align: center;
+                        box-shadow: 0 6px 15px 0 #616161;
+                      
+                    }
+            
+            }
+        }
+
+    }
+}

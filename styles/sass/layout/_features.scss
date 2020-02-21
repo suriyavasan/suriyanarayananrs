@@ -1,0 +1,85 @@
+.feature-page1{
+    background: $color-blue;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    padding-top: 8.5rem;
+    padding-bottom: 5.5rem;
+    @include responsive(tab-port) {
+        padding-top: 40rem;
+    }
+}
+
+.features{
+    position: relative;
+    z-index: 4000;
+}
+.feature-page1-title{
+    margin-bottom: 45px;
+    h2{
+        padding: 5px;
+        text-transform: uppercase;
+        color: $color-grey-light;
+        font-size: 3rem;
+    }
+    p{
+        padding: 5px;
+        max-width: 87.5rem;
+        margin: auto;
+        font-size: 19px;
+        color: #ffffffa6;
+}
+}
+
+
+
+.feature-page1-content{
+    color: white;
+    margin-top: 45px;
+}
+
+
+.feature-photo{
+    img{
+        width: 550px;
+        height: 550px;
+        margin-top: 120px;
+    }
+    &:hover{
+        animation-name: moveInRight;
+        animation-duration: 2s;
+        animation-delay: 1s; 
+        animation-timing-function: ease-in;
+    }
+} 
+
+.feature-content{
+    .feature-icon{
+        font-size: 60px;
+        float: left;
+        i{
+            color: $color-grey-light;
+        }
+        
+    }
+    .feature-detail{
+        margin-left: 60px;
+        padding: 15px;
+        h4{
+            padding: 0px 15px;
+            font-weight: 300;
+            font-size: 30px;
+        }
+        p{
+            margin-top: 15px;
+            max-width: 40rem;
+            padding: 0px 15px;
+            color: rgba(255, 255, 255, 0.541);
+            font-size: 17px;
+            line-height: 32px;
+        }
+    }
+}
+
+

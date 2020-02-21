@@ -1,0 +1,68 @@
+.about{
+    background:hsl(240, 10%, 90%);
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    @include responsive(tab-land) {
+        padding-bottom: 7rem;
+    }
+    @include responsive(tab-port) {
+        padding-bottom: 1rem;
+    }
+    @include responsive(phone) {
+        padding-bottom: 15rem;
+    }
+
+   .about__detail{
+       padding-left: 7rem;
+       @include responsive(phone) {
+        margin-bottom: 5rem;
+    }
+    h2{
+        transition: all .2s;
+        color: $color-black;
+        font-size: 3rem;
+        &:hover{
+            transform: skewY(4deg) skewX(10deg) scale(1.1);
+        }
+    }
+    p{
+     color: $color-black;
+    }
+   }
+    .composition{
+        margin-top: 10rem;
+        position: relative;
+        @include responsive(tab-port) {
+            margin-top: 16rem;
+            margin-bottom: 65rem;
+         }
+
+        @include responsive(phone) {
+           margin-top: 0;
+           margin-bottom: 22rem;
+        }
+        &__photo{
+           width: 55%;
+           border-radius: 2px;
+           position: absolute;
+           z-index: 10;
+           &--p1{
+               top: -20px;
+               left: 0;
+           }
+           &--p2{
+            top: 20px;
+            right: 0;
+        }
+        &--p3{
+            top: 100px;
+            left: 20%;
+        }
+        &:hover{
+            outline: 15px solid $color-white;
+            transform: scale(1.05);
+            z-index: 20;
+        }
+    }
+    }
+}

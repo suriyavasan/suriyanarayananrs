@@ -1,0 +1,82 @@
+/* the executive team page2 */
+
+
+.team{
+    padding-top: 75px;
+    color: #2c2c2c;
+    padding-bottom: 75px;
+    background: $color-blue;
+}
+
+
+
+.team-member{
+    margin-top: 25px;
+}
+
+.team-member img{
+    height:233px;
+    border-radius: 5px;
+    box-shadow: 0 20px 50px 0 rgba(0,0,0,.3);
+}
+.team-member-detail{
+
+    margin-top: 25px;
+        h4{
+            text-align: center;
+            font-weight: 400;
+            line-height: 15px;
+            padding: 5px;
+            font-size: 3rem;
+            
+        }
+        p{
+            text-align: center;
+            font-weight: 500;
+            color: $color-grey-light;
+            margin: auto;
+        }
+        ul{
+            text-align: center;
+            position: relative;
+            margin: auto;
+            padding-bottom: 3rem;
+            margin-right: 2rem;
+            @include responsive(tab-land) {
+                margin-right: 0rem;
+                margin-left: -4rem;
+             }
+            @include responsive(tab-port) {
+                margin-right: 0rem;
+                margin-left: -4rem;
+             }
+
+            li{
+                display: inline-block;
+                margin-right: 1rem;
+                margin-top: 1rem;
+                a{
+                    font-size: 20px;
+                    display: inline-block;
+                    height: 45px;
+                    width: 45px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: $color-white;
+                    line-height: 2.3;
+                }
+            }
+
+        }
+}
+
+.middle{
+    position: relative;
+    top: 50px;
+    @include responsive(tab-port) {
+        top: 0;
+     }
+    @include responsive(phone) {
+        top: 0;
+     }
+}

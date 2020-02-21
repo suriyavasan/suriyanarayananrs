@@ -1,0 +1,65 @@
+
+
+.popup{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: $color-black;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+
+    &:target{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    &__close{
+        &:link,
+        &:visited{
+            color: $color-red !important;
+            position: absolute;
+            top: 1rem;
+            left: 115rem;
+            font-size: 3rem;
+            display: inline-block;
+            text-decoration: none;
+        }
+    }
+    &__content{
+        @include abscenter;
+        width: 75%;
+        height: 50rem;
+        background-color: $color-white;
+        overflow: hidden;
+        align-items: center;
+
+    }
+    &__left{
+        width: 60%;
+        float: left;
+    }
+    &__right{
+        width: 40%;
+        float: left;
+        vertical-align: middle;
+        ul{
+            padding: 0;
+            margin-bottom: 3rem;
+            li{
+                list-style: none;
+                text-transform: capitalize;
+            }
+        }
+        p{
+            color: $color-grey;
+            margin-bottom: 3rem;
+        }
+    }
+    &__img{
+        display: block;
+        width: 100%;
+    }
+}
