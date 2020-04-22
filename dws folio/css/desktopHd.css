@@ -1,0 +1,891 @@
+
+@font-face {
+                          font-family: "CircularStd-Bold";
+                          src: url('../fonts/Circular Std Bold.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "Inter-Regular";
+                          src: url('../fonts/Inter-Regular.otf') format("opentype");
+                        }
+                        
+.desktophd {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 37536px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.desktophd .desktophdcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26617px;
+  height              : 4385px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .rectanglecopy3 {
+  background-color    : rgba(231, 238, 240, 1.0);
+  top                 : 31236px;
+  height              : 780px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .rectanglecopy4 {
+  background-color    : rgba(242, 242, 245, 1.0);
+  top                 : 32016px;
+  height              : 780px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .rectanglecopy5 {
+  background-color    : rgba(231, 238, 240, 1.0);
+  top                 : 32796px;
+  height              : 780px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .rectanglecopy7 {
+  background-color    : rgba(231, 238, 240, 1.0);
+  top                 : 34336px;
+  height              : 690px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .rectanglecopy6 {
+  background-color    : rgba(242, 242, 245, 1.0);
+  top                 : 33556px;
+  height              : 780px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .iceingonthecake {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31103px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.4px;
+  line-height         : 32.0px;
+}
+.desktophd .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31506px;
+  height              : 241px;
+  width               : 780px;
+  position            : absolute;
+  margin              : 0;
+  left                : 492px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .group2 .scanandaddthebil {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.4px;
+  line-height         : 32.0px;
+}
+.desktophd .group2 .theprocessofaddin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : auto;
+  width               : 782px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(109, 114, 120, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.desktophd .storyhappns {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33837px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.4px;
+  line-height         : 32.0px;
+}
+.desktophd .widgetsforcetouc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34595px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 810px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.4px;
+  line-height         : 32.0px;
+}
+.desktophd .wealwaystakeasta {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33875px;
+  height              : auto;
+  width               : 599px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(109, 114, 120, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.desktophd .wealwaystriedtol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34633px;
+  height              : auto;
+  width               : 599px;
+  position            : absolute;
+  margin              : 0;
+  left                : 810px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(109, 114, 120, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.desktophd .expensescan {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31290px;
+  height              : 672px;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33085px;
+  height              : 162px;
+  width               : 783px;
+  position            : absolute;
+  margin              : 0;
+  left                : 489px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .group7 .milagetracking {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(45, 45, 45, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.74px;
+  line-height         : 32.0px;
+}
+.desktophd .group7 .milagetrackingism {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : auto;
+  width               : 782px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(109, 114, 120, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.desktophd .milage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32867px;
+  height              : 639px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .validation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35313px;
+  height              : 464px;
+  width               : 825px;
+  position            : absolute;
+  margin              : 0;
+  left                : 310px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32299px;
+  height              : 238px;
+  width               : 781px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .group6 .leaveplanner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.4px;
+  line-height         : 32.0px;
+}
+.desktophd .group6 .thisisuniquefeatu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 52px;
+  height              : auto;
+  width               : 781px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(109, 114, 120, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.desktophd .design1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32083px;
+  height              : 646px;
+  width               : 324px;
+  position            : absolute;
+  margin              : 0;
+  left                : 958px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .validationevaluati {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35099px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.4px;
+  line-height         : 32.0px;
+}
+.desktophd .thepeoplewhomwei {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35161px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .reflectiontakeawa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35847px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.4px;
+  line-height         : 32.0px;
+}
+.desktophd .noteverytimeadesi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35919px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .additionaldiscussio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36603px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.4px;
+  line-height         : 32.0px;
+}
+.desktophd .youhavegotanidea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37270px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.77px;
+  line-height         : 85.0px;
+}
+.desktophd .hopeyougotlittle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36665px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .thedetailedvisual {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36765px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .sketchingalternativ {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36815px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .elaboratedusertest {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36865px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .designdecisionsacr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36915px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .detailedprototypes {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36965px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .somecreativestuff {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37015px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .howicamewiththe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37065px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .ourunique8boxite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37115px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .learnaboutthepres {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36066px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.29px;
+  line-height         : 23.0px;
+}
+.desktophd .iwasabletonarrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36107px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .neverregretforcha {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36211px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.29px;
+  line-height         : 23.0px;
+}
+.desktophd .collaboratingwitha {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36398px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "CircularStd-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.29px;
+  line-height         : 23.0px;
+}
+.desktophd .hrmsapplicationsar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36252px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .abilitytocollabora {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36439px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.18px;
+  line-height         : 32.0px;
+}
+.desktophd .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33619px;
+  height              : 659px;
+  width               : 818px;
+  position            : absolute;
+  margin              : 0;
+  left                : 622px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .design4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34441px;
+  height              : 585px;
+  width               : 780px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .dwscopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9086px;
+  height              : 8162px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .desktophdcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17104px;
+  height              : 9649px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.desktophd .dwscopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 9153px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
